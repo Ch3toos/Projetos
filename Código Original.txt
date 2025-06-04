@@ -1,0 +1,471 @@
+HTML
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre</title>
+</head>
+<body>
+
+    <h2> Sobre </h2>
+    <p>
+        Pedro Henrique Magalhães Frade, conhecido como Orochinho ou Pisca, é um streamer e youtuber brasileiro nascido em Maringá, Paraná. Iniciou sua trajetória no YouTube em 2010 com o canal PedroNaruto123, dedicado a tutoriais e animações. Posteriormente, criou o canal Tio Orochi, onde produzia vídeos humorísticos relacionados a animes, especialmente "Naruto", utilizando uma voz robótica para narrativas sarcásticas. 
+Devido a questões de direitos autorais, seu canal original foi removido em 2014, levando à criação de um novo canal homônimo. Em 2018, migrou para o canal Orochinho, diversificando seu conteúdo para vídeos de comentário e análise, alcançando mais de 2 milhões de inscritos. No entanto, enfrentou desafios com a desmonetização de seus vídeos devido às políticas do YouTube. 
+Em 2020, Orochinho começou a realizar transmissões ao vivo na Twitch, compartilhando clipes em seu canal Orochidois. Em 2022, lançou o canal Manikomio em parceria com seu amigo Doa, focado em testes de produtos e outros formatos de entretenimento. Além disso, recusou uma proposta de 900 mil reais para promover o site de apostas Blaze, decisão que ganhou destaque na mídia. 
+Orochinho também influenciou outros criadores de conteúdo, como Baptista Miranda, um dos maiores influenciadores de Angola. 
+ Sua trajetória é marcada por adaptações e reinvenções, refletindo sua resiliência e criatividade no cenário digital brasileiro.
+    </p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/XsbmavLkAwI?si=8JufFW2kMJwezMmg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+    <img src="./Orochinho.jpg" width="350"height="400">
+
+    <hr>
+
+    <h2> Texto médio</h2>
+    <i> Texto Italico</i>
+    <br>
+    <u> Texto com Underline</u>
+    <br>
+    <b> Texto com Negrito</b>
+    <br>
+    <i><b> Texto Italico Negrito</b></i>
+
+    <table border="2">
+        
+        <tr>
+            <td> Nome </td>
+            <td> Profissão </td>
+        </tr>
+        <tr>
+            <td> Orochinho </td>
+            <td> Vagabundo </td>
+
+        </tr>
+
+    </table>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Meu Site </title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+
+<body>
+    
+    <header>
+        <!--Cabeçalho do meu site-->
+        <nav class="menu"> 
+            <div class="celular"> &#9776 </div>
+            <ul>
+                <li> <img src="logo.png" alt="" width="70" class="logo"> </li>
+                <li> <a href="#inicio"> Informações pessoais </a> </li>
+                <li> <a href="#endereço"> Endereço </a> </li>
+                <li> <a href="#formacao"> Formação </a> </li>
+                <li> <a href="#redes"> Redes </a> </li>
+                 <button onclick="mudarTamanhoFonte(1)">A+</button>
+    <button onclick="mudarTamanhoFonte(-1)">A-</button>
+    <button onclick="toggleContrast()">Contraste</button>
+    <button onclick="lerTexto()">🔊 Ler Página</button>
+    <button onclick="resetAcessibilidade()">Resetar</button>
+
+            </ul>
+        </nav>
+    </header>
+    <h1> Manicômio Online </h1>
+    <p> Aprendendo A Piscar </p>
+
+    <section id="inicio">
+        <h2 id="Tituluzao"> Mitinho </h2>
+        <p> Piscador Profissional </p>
+
+        <img id="Imagem1" width="300"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLQHOFn7faHGx7iBs8fwJ5cJu6BvpiSSTT9w&s">
+        <img id="Imagem2"
+            src="./jóia.png" width="300">
+        <h3 class="titulo"> Informações Pessoais </h3>
+        <ul class="Informacoes">
+            <li> Telefone: 4002-8922</li>
+            <li> Email: piscaoficial@escola.bahia.com</li>
+            <li>Tal do pisca</li>
+        </ul>
+
+
+    </section>
+
+    <section id="endereço">
+        <h3 class="titulo"> Endereço</h3>
+
+        <ul class="Informacoes">
+            <li> Av. Bananal </li>
+            <li> Número: 522 </li>
+            <li> Bairro: Jardim da Macacada </li>
+            <li> Complemento: Perto do Manicômio </li>
+        </ul>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15750.696648974576!2d-49.9555660364495!3d-9.273379466737179!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9321ff17d5a66379%3A0x12b649e0428e36f0!2sAv.%20Bananal%2C%20Caseara%20-%20TO%2C%2077680-000!5e0!3m2!1spt-PT!2sbr!4v1742426701779!5m2!1spt-PT!2sbr"
+            width="300" height="550" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>"</iframe>
+
+    </section>
+
+    <section id="formacao">
+        <h3 class="titulo"> Formação </h3>
+        <ul class="Informacoes">
+            <li> Colégio Estadual Cracolâdia </li>
+            <li> Informática - Piscante </li>
+            <li> IGM - Indio Gordo Matador</li>
+            <li> Pós PRPB - Piadas Ruins Para Burros </li>
+            <li> Pós Espelialização em Docencia de Idiotas </li><img width="200"
+                src="https://preview.redd.it/rvtdkovrdzs41.png?auto=webp&s=9c15918a6b676f000f4927c81216a3bf9dbfa6de">
+        </ul>
+
+
+    </section>
+
+    <section id="redes">
+        <h3 class="titulo"> Redes Socias</h3>
+        <ul class="Informacoes">
+            <li class="gmail"><a target="_blank"></a><i class="fa-solid fa-envelope-open-text fa-flip" style="color: #7019b8;"></i> orochinhopedro666@gmail.com</li>
+            <li><a target="_blank" href="#"><i class="fa-brands fa-linkedin fa-flip" style="color: #7019b8;"></i> Linkedin </a></li>
+            <li><a  target="_blank" href="http://wa.me/+5544998521042"><i class="fa-brands fa-whatsapp fa-flip" style="color: #6e1cd1;"></i> Whatsapp</a></li>
+            <li><a target="_blank" href="https://pt.org.br/"><i class="fa-solid fa-store fa-flip" style="color: #7019b8;"></i> Picanha </a> </li>
+            <li> <a href="sobre.html"><i class="fa-solid fa-pen fa-flip" style="color: #7019b8;"></i> Biografia </a> </li>
+        </ul>
+
+
+    </section>
+
+    <footer class="rodape">
+        <p> Criado por <b> Angelo </b> (2025) </p>
+        <cite> Todos os direitos reservados </cite>
+        <progress></progress>
+        <time datetime=""></time>
+    </footer>
+
+    
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+
+    <script src="script.js"></script>
+    <script>
+
+      let tamanhoFonte = 16;
+
+      function mudarTamanhoFonte(soma){
+        //tamanho de fonte = 16 + 1
+        //tamanho de fonte = 16 + -1
+        tamanhoFonte = tamanhoFonte + soma;
+        document.body.style.fontSize = tamanhoFonte + 'px';
+      }
+
+      function toggleContrast(){
+        document.body.classList.toggle('altoContraste');
+        document.querySelectorAll('section').forEach(secao => {
+          secao.style.backgroundColor = 'black';
+        });
+      }
+
+
+
+    </script>
+
+    <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Site Acessível Completo</title>
+  <style>
+    body {
+      font-size: 16px;
+      background-color: white;
+      color: black;
+      transition: all 0.3s;
+      font-family: Arial, sans-serif;
+      outline: none;
+    }
+    .high-contrast {
+      background-color: black !important;
+      color: yellow !important;
+    }
+    .grayscale {
+      filter: grayscale(100%) !important;
+    }
+    .daltonismo {
+      filter: hue-rotate(90deg);
+    }
+    .toolbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      background: #eeeeee00;
+      padding: 10px;
+      z-index: 999;
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    button {
+      margin: 5px;
+      padding: 5px 10px;
+    }
+    main {
+      margin-top: 80px;
+      padding: 20px;
+    }
+    a:focus, button:focus {
+      outline: 3px solid #00f;
+    }
+  </style>
+</head>
+<body>
+  <div class="toolbar">
+
+
+  </div>
+
+  <main id="conteudo" tabindex="0" aria-label="Conteúdo principal da página">
+    <h1>Bem-vindo ao site acessível</h1>
+
+    <p>Este site possui algumas ferramentas para tornar a navegação mais inclusiva.</p>
+    <a href="#" aria-label="Ir para página de contato">Página de Contato</a>
+  </main>
+
+  <!-- Plugin VLibras -->
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+
+  
+  <script>
+	  new window.VLibras.Widget('https://vlibras.gov.br/app');
+
+    function toggleContrast() {
+      document.body.classList.toggle('high-contrast');
+    }
+
+    function lerTexto() {
+      const text = document.querySelector('main').innerText;
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = 'pt-BR';
+      speechSynthesis.speak(utterance);
+    }
+
+	function resetAcessibilidade() {
+	  document.body.classList.remove('high-contrast', 'grayscale', 'daltonismo');
+	  tamanhoFonte = 16;
+	  document.body.style.fontSize = tamanhoFonte + 'px';
+	  speechSynthesis.cancel();
+	}
+
+    // Atalhos de teclado
+    document.addEventListener('keydown', function(e) {
+      if (e.altKey && e.key === '1') changeFontSize(1);
+      if (e.altKey && e.key === '2') changeFontSize(-1);
+      if (e.altKey && e.key === '3') toggleContrast();
+      if (e.altKey && e.key === '4') toggleGrayscale();
+      if (e.altKey && e.key === '5') toggleDaltonismo();
+      if (e.altKey && e.key === '6') lerTexto();
+    });
+  </script>
+</body>
+</html>
+
+</body>
+
+</html>
+
+
+
+
+
+CSS
+
+
+/*todas as anotações se referem, ao código abaixo dela*/
+
+/*Classes: Define
+
+/*body é o corpo do texto*/
+body {
+    /*altera a cor de Fundo*/
+    background-color:rgb(149, 196, 197) ;
+    /*alinha o texto no centro*/
+    text-align: center;
+    background-image: url("./Fundo.png");
+    background-position:  center;
+  background-repeat: repeat;
+  background-size: contain;
+  background-attachment: fixed;
+    background-size: cover ;
+    color: rgb(102, 255, 0);
+    /*fonte do texto*/
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+section{
+    background-color: rgba(3, 0, 0, 0.76);
+    width: 500px;
+    margin: auto;
+    border-radius: 30px;
+    /*espaçamento interno*/
+    padding: 10px;
+    /*espaçamento externo*/
+    margin-top: 30px;
+    box-shadow: 2px 3px 5px rgb(5, 1, 1);
+    animation: animacao 4s alternate infinite;
+}
+
+@keyframes animacao {
+    0% { box-shadow: 2px 2px 8px red;}
+    25% { box-shadow: 2px 2px 8px purple;}
+    50% { box-shadow: 2px 2px 8px yellow;}
+    75% { box-shadow: 2px 2px 8px green;}
+    100% { box-shadow:  2px 8px blue}
+}
+
+.titulo {
+    color:rgb(253, 253, 253);
+    text-shadow: rgb(0, 0, 0);
+}
+#Tituluzao {
+    color: rgb(231, 233, 233);
+}
+#Imagem1{
+    border-radius: 20px;
+    width: 300px;
+    border: 5px solid grey;
+}
+#Imagem2{
+    border-radius: 20px;
+}
+.Informacoes{ 
+    list-style: none;
+    text-align: left;
+}
+
+section:hover {
+    background-color: rgba(99, 87, 87, 0.425);
+    transition: 5s;
+}
+/*personalizar menu*/
+.menu{
+    background-color: black;  /*cor de fundo do menu*/
+    border-radius: 15px;        /*arredondar bordas do menu*/
+    border: 1px solid, rgba(88, 15, 184, 0.705);
+}
+/*deixar lista lado a lado*/
+.menu ul li {
+    display: inline-block; /*colocar opções da lista do menu lado a lado*/
+    padding: 10px;         /*espaçamento interno*/
+    width: 190px;          /*largura do botão do menu*/
+}
+.menu ul li a {
+    color: rgb(248, 243, 243);        /*cor de letra*/
+    text-decoration: none; /*decoração de link desativada*/
+}
+.body{
+     margin: 0px;
+     padding: 0px;
+}
+.logo{
+    border-radius: 10px;
+    width: 90px;
+}
+.rodape{
+    /*cor do rodapé*/
+    background-color: rgb(14, 12, 12);
+    /*cor da letra*/
+    color: white;
+    /*margem de cima*/
+    margin-top: 40px;
+    /*espaçamento interno*/
+    padding-top: 20px;
+}
+.gmail{
+    color: rgb(255, 255, 255);
+}
+#redes ul li a{
+    color: rgb(252, 252, 252);         
+     /* decoração do texto desativada  */
+    text-decoration: none;   
+
+}
+.celular{
+    /*desapareça o icone menu na versão desktop*/
+    display: none;
+}
+
+/*definindo configuração do modo celular*/
+@media(max-width: 1050px){
+    .menu ul {
+        display: none; /*desapareçe lista do menu*/
+    }
+    .celular{
+        display: block; /*aparece menu hamburger do celular*/
+        text-align: left;
+        padding: 8px;
+    }
+}
+ul.mostraMenu{
+    display: inline-block;
+}
+body {
+  color: #ffffff;
+}
+
+
+
+JV SCRIPT
+
+var visitante = 3;
+var nome = "Pedro Samuel";
+
+
+if(visitante === 2000){
+    alert("Parabens "+nome+" , você foi convidado para o Hospício!!")
+}else{
+    alert("Perdeu Lindãoo!!")
+}
+/*comentário*/
+//obtém o componente do menu do celular(icone)
+var celular = document.querySelector('.celular');
+//obtém lista
+var listaMenu = document.querySelector('.menu ul');
+
+//evento de click no menu
+celular.addEventListener('click', function(){
+    listaMenu.classList.toggle('mostraMenu');
+});
+

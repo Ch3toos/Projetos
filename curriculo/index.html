@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Meu Site </title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <header>
+        <!--Cabeçalho do meu site-->
+        <nav class="menu">
+            <div class="celular"> &#9776 </div>
+            <ul>
+                <li> <img src="logo.png" alt="" width="70" class="logo"> </li>
+                <li> <a href="#inicio"> Informações pessoais </a> </li>
+                <li> <a href="#endereço"> Endereço </a> </li>
+                <li> <a href="#formacao"> Formação </a> </li>
+                <li> <a href="#redes"> Redes </a> </li>
+                <button onclick="mudarTamanhoFonte(1)">A+</button>
+                <button onclick="mudarTamanhoFonte(-1)">A-</button>
+                <button onclick="toggleContrast()">Contraste</button>
+                <button onclick="lerTexto()">🔊 Ler Página</button>
+                <button onclick="resetAcessibilidade()">Resetar</button>
+
+            </ul>
+        </nav>
+    </header>
+    <h1> Manicômio Online </h1>
+    <p> Aprendendo A Piscar </p>
+
+    <div class="card-container">
+        <section id="inicio">
+            <h2 id="Tituluzao"> Mitinho </h2>
+            <p> Piscador Profissional </p>
+
+            <img id="Imagem1" width="300"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLQHOFn7faHGx7iBs8fwJ5cJu6BvpiSSTT9w&s" alt="Imagem 1">
+            <img id="Imagem2" src="./jóia.png" width="300" alt="Imagem 2">
+            <h3 class="titulo"> Informações Pessoais </h3>
+            <ul class="Informacoes">
+                <li> Telefone: 4002-8922</li>
+                <li> Email: piscaoficial@escola.bahia.com</li>
+                <li> Tal do pisca</li>
+            </ul>
+
+        </section>
+
+        <section id="endereço">
+            <h3 class="titulo"> Endereço</h3>
+
+            <ul class="Informacoes">
+                <li> Av. Bananal </li>
+                <li> Número: 522 </li>
+                <li> Bairro: Jardim da Macacada </li>
+                <li> Complemento: Perto do Manicômio </li>
+            </ul>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15750.696648974576!2d-49.9555660364495!3d-9.273379466737179!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9321ff17d5a66379%3A0x12b649e0428e36f0!2sAv.%20Bananal%2C%20Caseara%20-%20TO%2C%2077680-000!5e0!3m2!1spt-PT!2sbr!4v1742426701779!5m2!1spt-PT!2sbr"
+                width="300" height="550" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </section>
+
+        <section id="formacao">
+            <h3 class="titulo"> Formação </h3>
+            <ul class="Informacoes">
+                <li> Colégio Estadual Cracolâdia </li>
+                <li> Informática - Piscante </li>
+                <li> IGM - Indio Gordo Matador</li>
+                <li> Pós PRPB - Piadas Ruins Para Burros </li>
+                <li> Pós Espelialização em Docencia de Idiotas </li>
+                <img width="200" src="https://preview.redd.it/rvtdkovrdzs41.png?auto=webp&s=9c15918a6b676f000f4927c81216a3bf9dbfa6de"
+                    alt="Imagem formação">
+            </ul>
+
+        </section>
+
+        <section id="redes">
+            <h3 class="titulo"> Redes Socias</h3>
+            <ul class="Informacoes">
+                <li class="gmail"><a target="_blank" rel="noopener noreferrer" href="mailto:orochinhopedro666@gmail.com"><i
+                            class="fa-solid fa-envelope-open-text fa-flip" style="color: #7019b8;"></i> orochinhopedro666@gmail.com</a></li>
+                <li><a target="_blank" rel="noopener noreferrer" href="#"><i
+                            class="fa-brands fa-linkedin fa-flip" style="color: #7019b8;"></i> Linkedin </a></li>
+                <li><a target="_blank" rel="noopener noreferrer" href="http://wa.me/+5544998521042"><i
+                            class="fa-brands fa-whatsapp fa-flip" style="color: #6e1cd1;"></i> Whatsapp</a></li>
+                <li><a target="_blank" rel="noopener noreferrer" href="https://pt.org.br/"><i
+                            class="fa-solid fa-store fa-flip" style="color: #7019b8;"></i> Picanha </a> </li>
+                <li> <a href="sobre.html"><i class="fa-solid fa-pen fa-flip" style="color: #7019b8;"></i> Biografia </a>
+                </li>
+            </ul>
+
+        </section>
+    </div>
+
+    <footer class="rodape">
+        <p> Criado por <b> Angelo </b> (2025) </p>
+        <cite> Todos os direitos reservados </cite>
+        <progress></progress>
+        <time datetime=""></time>
+    </footer>
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
+    <script src="script.js"></script>
+    <script>
+        let tamanhoFonte = 16;
+
+        function mudarTamanhoFonte(soma) {
+            tamanhoFonte = tamanhoFonte + soma;
+            document.body.style.fontSize = tamanhoFonte + 'px';
+        }
+
+        function toggleContrast() {
+            document.body.classList.toggle('altoContraste');
+            document.querySelectorAll('section').forEach(secao => {
+                secao.style.backgroundColor = 'black';
+            });
+        }
+
+        function lerTexto(){
+          const texto = document.querySelector('main').innerText;
+          const discurso = new SpeechSynthesisUtterance(texto);
+          discurso.lang = 'pt-BR';
+          speechSynthesis.speak(discurso);
+        }
+
+        function lerTexto() {
+            const text = document.body.innerText;
+            const utterance = new SpeechSynthesisUtterance(text);
+            utterance.lang = 'pt-BR';
+            speechSynthesis.speak(utterance);
+        }
+
+        function resetAcessibilidade(){
+            location.reload();
+        }
+        
+        function resetAcessibilidade() {
+            document.body.classList.remove('altoContraste');
+            tamanhoFonte = 16;
+            document.body.style.fontSize = tamanhoFonte + 'px';
+            speechSynthesis.cancel();
+        }
+    </script>
+
+</body>
+
+</html>

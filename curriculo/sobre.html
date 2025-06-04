@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pedro Henrique Magalhães Frade - Orochinho</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #0e0e2c;
+      color: white;
+    }
+
+    header {
+      background-color: #14144d;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    .container {
+      padding: 30px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      border-bottom: 2px solid #fff;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+    }
+
+    footer {
+      background-color: #14144d;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Pedro Henrique Magalhães Frade</h1>
+    <p>Conhecido como Orochinho</p>
+  </header>
+
+  <div class="container">
+    <div class="section">
+      <h2>Biografia</h2>
+      <p>Pedro Henrique Magalhães Frade, mais conhecido na internet como Orochinho, é uma personalidade brasileira famosa por seu conteúdo humorístico e crítico na internet. Com uma abordagem única e irreverente, conquistou milhares de seguidores nas redes sociais e no YouTube.</p>
+    </div>
+
+    <div class="section">
+      <h2>Carreira</h2>
+      <p>Orochinho começou a produzir vídeos como sátiras de temas diversos, incluindo críticas sociais, cultura pop e comportamentos da internet. Seu estilo debochado e direto rapidamente chamou atenção, estabelecendo seu espaço como um dos criadores de conteúdo mais inusitados da internet brasileira.</p>
+    </div>
+
+    <div class="section">
+      <h2>Curiosidades</h2>
+      <ul>
+        <li>É conhecido por manter uma identidade mais discreta em relação à sua vida pessoal.</li>
+        <li>Possui uma base de fãs fiel que aprecia seu humor ácido.</li>
+        <li>Faz lives, participa de podcasts e interage com a comunidade online com frequência.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Interação</h2>
+      <button onclick="mostrarMensagem()">Clique para uma curiosidade!</button>
+      <p id="mensagem" style="margin-top: 10px;"></p>
+    </div>
+  </div>
+
+  <footer>
+    <p>Site criado para fins educacionais - &copy; 2025</p>
+  </footer>
+
+  <script>
+    function mostrarMensagem() {
+      const mensagens = [
+        "Orochinho já foi confundido com vários outros youtubers por causa do seu estilo de voz!",
+        "Mesmo com o tom debochado, Orochinho toca em temas profundos em seus vídeos.",
+        "Ninguém sabe ao certo como ele realmente se parece... e isso é parte do charme!"
+      ];
+      const indice = Math.floor(Math.random() * mensagens.length);
+      document.getElementById("mensagem").textContent = mensagens[indice];
+    }
+  </script>
+</body>
+</html>
